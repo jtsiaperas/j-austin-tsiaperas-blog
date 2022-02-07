@@ -1,0 +1,2301 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "person",
+        "type": "ContentType",
+        "createdAt": "2022-02-07T15:04:43.150Z",
+        "updatedAt": "2022-02-07T15:50:31.892Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2022-02-07T15:50:31.892Z",
+        "firstPublishedAt": "2022-02-07T15:04:43.519Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Person",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "company",
+          "name": "Company",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "shortBio",
+          "name": "Short Bio",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "email",
+          "name": "Email",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "phone",
+          "name": "Phone",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "github",
+          "name": "Github",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "linkedIn",
+          "name": "LinkedIn",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "blogPost",
+        "type": "ContentType",
+        "createdAt": "2022-02-07T15:04:43.166Z",
+        "updatedAt": "2022-02-07T15:04:53.899Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-02-07T15:04:53.899Z",
+        "firstPublishedAt": "2022-02-07T15:04:43.806Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Blog Post",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heroImage",
+          "name": "Hero Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "body",
+          "name": "Body",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "person"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "publishDate",
+          "name": "Publish Date",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "tags",
+          "name": "Tags",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+              {
+                "in": [
+                  "general",
+                  "javascript",
+                  "static-sites"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "u3cw12w4zmkh",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 9,
+        "createdAt": "2022-02-07T15:04:43.611Z",
+        "createdBy": {
+          "sys": {
+            "id": "12r5zvLlt4qr13Eev6Ob65",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-07T15:50:32.488Z",
+        "updatedBy": {
+          "sys": {
+            "id": "12r5zvLlt4qr13Eev6Ob65",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "person",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "company",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "shortBio",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "email",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "phone",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "github",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "linkedIn",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "u3cw12w4zmkh",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 3,
+        "createdAt": "2022-02-07T15:04:43.889Z",
+        "createdBy": {
+          "sys": {
+            "id": "12r5zvLlt4qr13Eev6Ob65",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-07T15:04:54.008Z",
+        "updatedBy": {
+          "sys": {
+            "id": "12r5zvLlt4qr13Eev6Ob65",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blogPost",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor"
+        },
+        {
+          "fieldId": "heroImage",
+          "widgetId": "assetLinkEditor"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown"
+        },
+        {
+          "fieldId": "body",
+          "widgetId": "markdown"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "entryLinkEditor"
+        },
+        {
+          "fieldId": "publishDate",
+          "settings": {
+            "ampm": "24",
+            "format": "timeZ"
+          },
+          "widgetId": "datePicker"
+        },
+        {
+          "fieldId": "tags",
+          "widgetId": "tagEditor"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "jubgHVgs3dH8SYVgUdh4M",
+        "type": "Entry",
+        "createdAt": "2022-02-07T15:08:55.642Z",
+        "updatedAt": "2022-02-07T15:50:53.385Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 17,
+        "publishedAt": "2022-02-07T15:50:53.385Z",
+        "firstPublishedAt": "2022-02-07T15:13:54.590Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 18,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "person"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "J. Austin Tsiaperas"
+        },
+        "title": {
+          "en-US": "Full-Stack Developer, Back-End preferred"
+        },
+        "company": {
+          "en-US": "Self"
+        },
+        "shortBio": {
+          "en-US": "My idea of fun involves drawing on a game board with crayon and creating an imaginary railway empire in a tolkeinesque fantasy world. I legitimately enjoy arithmetic. I think solving that one problem with my code that kept it from working is a rush that no roller coaster can compete with. I would rather spend 8 hours a day staring at a black screen with white text than spend 15 minutes on the phone. I will convince you to play my train game, and you will have a good time."
+        },
+        "email": {
+          "en-US": "jatsiaperas@gmail.com"
+        },
+        "phone": {
+          "en-US": "312-758-3153"
+        },
+        "github": {
+          "en-US": "https://github.com/jtsiaperas"
+        },
+        "linkedIn": {
+          "en-US": "https://linkedin.com/in/j-austin-tsiaperas"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2Xy0xj4broiKcBgcZMVNj6"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "vNVz6vGFbyO56XDZ0kBiB",
+        "type": "Entry",
+        "createdAt": "2022-02-07T15:14:18.277Z",
+        "updatedAt": "2022-02-07T15:31:38.232Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 68,
+        "publishedAt": "2022-02-07T15:31:38.232Z",
+        "firstPublishedAt": "2022-02-07T15:31:38.232Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 69,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Profile / Experience"
+        },
+        "slug": {
+          "en-US": "profile-experience"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7ICMADxwr2NzFaGsiAGqsz"
+            }
+          }
+        },
+        "description": {
+          "en-US": "Creative Full-Stack Developer with Back End focus. Avid follower of Agile principles, innovating through experimentation and iteration. Quick study with a knack for written language and mathematics, particularly linear algebra and numerical analysis. Passionate about solving complex problems with a SOLID and RESTful approach. Excellent at managing projects and leading teams through collaboration and inclusion. Lifelong learner who thrives when continually challenged."
+        },
+        "body": {
+          "en-US": "### SKILLS\n* Backend: Node.js, Ruby on Rails, C++, C#, MongoDB, MySQL, Python, Django, Elixir\n* Frontend: HTML, CSS, JavaScript, jQuery, React, Angular, Bootstrap, Material Design\n\n### EXPERIENCE\n\n| Next Health Choice   |   Project Specialist     |   07/2019-09/2020 |\n| -------------------- | ------------------------ | ----------------- | \nAs a project specialist, my primary goal was to obtain medical prior authorizations for elective surgeries. This meant contacting insurance companies and their agents, analyzing patient records, and filling out surveys in provider portals attesting that the patients had the appropriate conservative treatments prior to the requested procedure. In addition, I\n\n* added insurance plan benefits and authorization requirements to an internal knowledge base, helping team members direct their efforts appropriately\n* designed automated report templates, saving at least an hour per day per person and eliminating transcription errors\n* trained a machine learning algorithm to distinguish between live and recorded speech, allowing team members to complete other tasks while on long holds\n\n| Freelance   |  Editor/Translator   |  2005-Present |\n| ----------- | -------------------- | ------------- | \nUsing a combination of pattern recognition, translation software, and specific subject knowledge, I translate materials from French, Spanish, Italian, or Portuguese to English. In addition, I edit machine translations to account for idioms and relevant technical or medical terminology. I take advantage of every tool at my disposal to increase my productivity, progressing from an average of 500 to 1000 words per hour over the past three years.\n\n| Allied Benefit Systems | Funding/Stop Loss Claims Coordinator | 08/2016-03/2018 |\n| ---------------------- | ------------------------------------ | --------------- | \nMy primary function as a Funding/Stop Loss Claims Coordinator was to administer the weekly claims funding for employer-funded insurance plans. This entailed maintaining a continuous funding log, analyzing weekly claims, and summarizing weekly expenses in a report sent to the client for approval prior to releasing the provider checks.  Accomplishments included: I\n\n* created a template for the weekly expense summary that automatically added the totals\n* linked the data from the continuous funding log to the template to automatically update the summary, eliminating transcription errors\n\n| Fedex Office & Print Services | Lead Project Coordinator | 08/2008-07/2013 |\n| ----------------------------- | ------------------------ | --------------- | \nThe role of the Lead Project Coordinator was to act as the liaison between the customers and the dedicated print production teams. I mainly worked with customers who had large and complex orders. I quickly discovered that my role was sorely needed, as my coworkers had taken on the burden of producing all the orders themselves. In order to improve the store’s ratings and save team members unnecessary work, I\n\n* increased revenue by 25% and nearly doubled profits by outsourcing print work to FedEx Office locations with larger and more efficient equipment\n\n### EDUCATION \n\n| Northwestern University Coding Bootcamp | Full-Stack Developer Certificate | 11/2017-05/2018 |\n| --------------------------------------- | -------------------------------- | ------------ | \n"
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "jubgHVgs3dH8SYVgUdh4M"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2022-02-07T00:00-06:00"
+        },
+        "tags": {
+          "en-US": [
+            "general"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "6ZuhnqzbxLgw1WlThWAz5E",
+        "type": "Entry",
+        "createdAt": "2022-02-07T15:32:10.804Z",
+        "updatedAt": "2022-02-07T15:38:16.825Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-02-07T15:38:16.825Z",
+        "firstPublishedAt": "2022-02-07T15:38:16.825Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "BASH HANGMAN"
+        },
+        "slug": {
+          "en-US": "bash-hangman"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "40JW2lQ9vWHtTFYevz0Wvo"
+            }
+          }
+        },
+        "description": {
+          "en-US": "A BASH terminal themed hangman game"
+        },
+        "body": {
+          "en-US": "### BASH HANGMAN\n\nBASH HANGMAN is an experiment in interactive design inspired by the BASH terminal interface. The words are all terminal commands, and with the exception of the decorative lines at the top of the screen, all design is ASCII art. \n\nBASH HANGMAN was implemented using HTML, CSS, JavaScript, and Bootstrap, and deployed on GitHub. It can be accessed <a href=\"https://jtsiaperas.github.io/Hangman-Game/\" target=\" \">here</a>."
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "jubgHVgs3dH8SYVgUdh4M"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2022-02-07T00:00-06:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "JuvUtfuoWHf2i0EF8B7Mp",
+        "type": "Entry",
+        "createdAt": "2022-02-07T15:39:01.594Z",
+        "updatedAt": "2022-02-07T15:40:40.687Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2022-02-07T15:40:40.687Z",
+        "firstPublishedAt": "2022-02-07T15:40:40.687Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Arboreal Memory"
+        },
+        "slug": {
+          "en-US": "arboreal-memory"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6L2zcKCjIf1DcMOWmWKMgc"
+            }
+          }
+        },
+        "description": {
+          "en-US": "A tree-themed memory game"
+        },
+        "body": {
+          "en-US": "### Arboreal Memory\n\nAn introductory exercise in an interactive single-page application. A memory game using images of trees for an arboreal theme. \n\nArboreal Memory was implemented using HTML, CSS, React, and Bootstrap, and deployed on Heroku. It can be accessed <a href=\"https://nameless-taiga-15536.herokuapp.com/\" target=\" \">here</a>."
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "jubgHVgs3dH8SYVgUdh4M"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2022-02-07T00:00-06:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "4Ygz4aZZh7AO4wFfJCt35d",
+        "type": "Entry",
+        "createdAt": "2022-02-07T15:40:50.954Z",
+        "updatedAt": "2022-02-07T15:41:59.573Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-02-07T15:41:59.573Z",
+        "firstPublishedAt": "2022-02-07T15:41:59.573Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Best Friend Finder"
+        },
+        "slug": {
+          "en-US": "best-friend-finder"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3nwkULmmq0phQSUS6vW99u"
+            }
+          }
+        },
+        "description": {
+          "en-US": "A friend finding tool "
+        },
+        "body": {
+          "en-US": "### BestFriendFinder\n\nA compatibility survey designed to find like-minded individuals. \n\nBest Friend Finder was implemented using HTML, CSS, Express, Node, and Bootstrap, and deployed on Heroku. It can be accessed <a href=\"https://calm-mesa-52722.herokuapp.com/\" target=\" \">here</a>."
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "jubgHVgs3dH8SYVgUdh4M"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2022-02-07T00:00-06:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "67vUFgyWFUjioM9WIhDWxC",
+        "type": "Entry",
+        "createdAt": "2022-02-07T15:42:18.339Z",
+        "updatedAt": "2022-02-07T15:43:36.738Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-02-07T15:43:36.738Z",
+        "firstPublishedAt": "2022-02-07T15:43:36.738Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Represent!"
+        },
+        "slug": {
+          "en-US": "represent"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1BgRwzc32jjPi6SQy29L1f"
+            }
+          }
+        },
+        "description": {
+          "en-US": "A website that allows users to view all of the representatives for their district"
+        },
+        "body": {
+          "en-US": "### Represent!\n\nRepresent was born out of the knowledge that most people in the US are unaware of their elected officials beyond the federal level. It uses the Open Politics API to return a carousel list of all elected officials from the President down to local councilmen.\n\nRepresent! was implemented using HTML, CSS, Bootstrap, and JQuery and can be accessed <a href=\"https://teampolitics.github.io/Represent/\" target=\" \">here</a>."
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "jubgHVgs3dH8SYVgUdh4M"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2022-02-07T00:00-06:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "6XIxsRucMzapWyvVcztnyF",
+        "type": "Entry",
+        "createdAt": "2022-02-07T15:43:42.909Z",
+        "updatedAt": "2022-02-07T16:32:10.451Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 27,
+        "publishedAt": "2022-02-07T16:32:10.451Z",
+        "firstPublishedAt": "2022-02-07T15:47:58.876Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 28,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Code Word"
+        },
+        "slug": {
+          "en-US": "code-word"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7em8oPDI8tLKa7JRsHcnYd"
+            }
+          }
+        },
+        "description": {
+          "en-US": "A variant of wordle that uses latin words, in progress"
+        },
+        "body": {
+          "en-US": "### cdewrd\n\nCodeword was inspired by my love of word games and the recent wordle craze. Given my experience working with the romance languages, I thought it would be fun to try solving puzzles using latin words. This is currently a work in progress.\n\nI started by sourcing a list of latin words. Finding a list was not difficult, however finding a list that I could easily work with proved harder than I expected. I ultimately happened upon an archived university project and downloaded the RAW file used as the data for a command line based interactive latin dictionary. The following image is an example of the data formatting.\n\n![latin_defs](//images.ctfassets.net/u3cw12w4zmkh/3aF8sO1yI9cmaqoITXY7Pb/7247718e057c41d29f8e471c533ade23/latin_defs.png)\n\nClearly I had to do some work on the file to get lists of just words. I created two scripts to run in the terminal, one which read the RAW data and converted it into lists of words separated by lengths, and another to remove any duplicate words and proper nouns. The results of the former script can be seen below.\n\n![latin_lists](//images.ctfassets.net/u3cw12w4zmkh/5l1oRfaEWndzToZhemJSdk/72ea0480ba9e4c0ca57aa9850de0c2fe/latin_lists.png)\n\nI had a couple of ideas about how exactly to remove the duplicates. My first thought was to use filter and check each word against a new list for duplicates. That ends up being O(n^2), which is pretty inefficient. I then thought of sorting the lists first, and remembered that the lists are already in alphabetical order. It occurred to me that all I really had to check is that the previous word isn't the same as the current word when adding to the new list. This ended up being more efficient since there are only a couple operations per word rather than a few thousand.\n\nNow to work on the database schema. I wanted to use separate tables for each list, named for the length, and a foreign key relationship between these tables and the user. Each user would have their own list of completed words and a list of every word guessed for each word. I initially began creating the schema in mongoose/MongoDB and started a side project when I became annoyed with the process of filling out the templates."
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "jubgHVgs3dH8SYVgUdh4M"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2022-02-07T00:00-06:00"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "6Od9v3wzLOysiMum0Wkmme",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:04:44.570Z",
+        "updatedAt": "2022-02-07T15:04:48.947Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-02-07T15:04:48.947Z",
+        "firstPublishedAt": "2022-02-07T15:04:48.947Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Woman with black hat"
+        },
+        "description": {
+          "en-US": "Woman wearing a black hat"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/6Od9v3wzLOysiMum0Wkmme/efc83a247705b777f64d856b7f7ccb3d/cameron-kirby-88711.jpg",
+            "details": {
+              "size": 7316629,
+              "image": {
+                "width": 3000,
+                "height": 2000
+              }
+            },
+            "fileName": "cameron-kirby-88711.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "7orLdboQQowIUs22KAW4U",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:04:44.613Z",
+        "updatedAt": "2022-02-07T15:04:48.746Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-02-07T15:04:48.746Z",
+        "firstPublishedAt": "2022-02-07T15:04:48.746Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sparkler"
+        },
+        "description": {
+          "en-US": "John with Sparkler"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/7orLdboQQowIUs22KAW4U/910e4caadeef9037f05c7b60f42eaf72/matt-palmer-254999.jpg",
+            "details": {
+              "size": 2293094,
+              "image": {
+                "width": 3000,
+                "height": 2000
+              }
+            },
+            "fileName": "matt-palmer-254999.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "4shwYI3POEGkw0Eg6kcyaQ",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:04:44.929Z",
+        "updatedAt": "2022-02-07T15:04:49.915Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-02-07T15:04:49.915Z",
+        "firstPublishedAt": "2022-02-07T15:04:49.915Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Man in the fields"
+        },
+        "description": {
+          "en-US": "Tattooed man walking in a field"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/4shwYI3POEGkw0Eg6kcyaQ/7e0f87d312f410f6e7349e230e72363c/felix-russell-saw-112140.jpg",
+            "details": {
+              "size": 4539181,
+              "image": {
+                "width": 2500,
+                "height": 1667
+              }
+            },
+            "fileName": "felix-russell-saw-112140.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "4NzwDSDlGECGIiokKomsyI",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:04:45.008Z",
+        "updatedAt": "2022-02-07T15:04:49.717Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-02-07T15:04:49.717Z",
+        "firstPublishedAt": "2022-02-07T15:04:49.717Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "City"
+        },
+        "description": {
+          "en-US": "City pictured from the sky"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/4NzwDSDlGECGIiokKomsyI/7a29d1bca9b2633bdd67f12a1a0ee09c/denys-nevozhai-100695.jpg",
+            "details": {
+              "size": 15736986,
+              "image": {
+                "width": 3992,
+                "height": 2992
+              }
+            },
+            "fileName": "denys-nevozhai-100695.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "2Xy0xj4broiKcBgcZMVNj6",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:10:00.848Z",
+        "updatedAt": "2022-02-07T15:13:49.680Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2022-02-07T15:13:49.680Z",
+        "firstPublishedAt": "2022-02-07T15:13:49.680Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "J. Austin Tsiaperas Headshot"
+        },
+        "description": {
+          "en-US": "A face-on picture of J. Austin Tsiaperas holding a certificate for his coding bootcamp in front of cherry blossoms"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/2Xy0xj4broiKcBgcZMVNj6/0eaff6ba42a9328471939b37e38c4f15/headshot.jpeg.png",
+            "details": {
+              "size": 525333,
+              "image": {
+                "width": 600,
+                "height": 600
+              }
+            },
+            "fileName": "headshot.jpeg.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "7ICMADxwr2NzFaGsiAGqsz",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:15:25.878Z",
+        "updatedAt": "2022-02-07T15:16:51.925Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2022-02-07T15:16:51.925Z",
+        "firstPublishedAt": "2022-02-07T15:16:51.925Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "handcrafted-with-love"
+        },
+        "description": {
+          "en-US": "React code highlighted in various colors on a black background, photographed at an angle"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/7ICMADxwr2NzFaGsiAGqsz/8e17795490e137fc5627c3f42c4a56d0/handcrafted-with-love.jpeg",
+            "details": {
+              "size": 540379,
+              "image": {
+                "width": 1824,
+                "height": 868
+              }
+            },
+            "fileName": "handcrafted-with-love.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "40JW2lQ9vWHtTFYevz0Wvo",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:32:31.419Z",
+        "updatedAt": "2022-02-07T15:33:46.951Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2022-02-07T15:33:46.951Z",
+        "firstPublishedAt": "2022-02-07T15:33:46.951Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "BASH HANGMAN"
+        },
+        "description": {
+          "en-US": "A screenshot of a terminal-inspired version of hangman created using ASCII art"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/40JW2lQ9vWHtTFYevz0Wvo/0e020501bde41dd6e7c3daaed6e85fb2/hangman.png",
+            "details": {
+              "size": 40062,
+              "image": {
+                "width": 1849,
+                "height": 992
+              }
+            },
+            "fileName": "hangman.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "6L2zcKCjIf1DcMOWmWKMgc",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:39:13.898Z",
+        "updatedAt": "2022-02-07T15:39:58.737Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-02-07T15:39:58.737Z",
+        "firstPublishedAt": "2022-02-07T15:39:58.737Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Arboreal Memory"
+        },
+        "description": {
+          "en-US": "A title splash with the words Arboreal Memory and a grid of images depicting portions of trees"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/6L2zcKCjIf1DcMOWmWKMgc/45d867c9875c64b35838318d793877ba/memory.png",
+            "details": {
+              "size": 1039727,
+              "image": {
+                "width": 1883,
+                "height": 850
+              }
+            },
+            "fileName": "memory.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "3nwkULmmq0phQSUS6vW99u",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:41:31.448Z",
+        "updatedAt": "2022-02-07T15:41:56.569Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-02-07T15:41:56.569Z",
+        "firstPublishedAt": "2022-02-07T15:41:56.569Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "BFF"
+        },
+        "description": {
+          "en-US": "A screenshot with a portion of a demographic form and survey"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/3nwkULmmq0phQSUS6vW99u/92a6d82cc61fd643af2d652a51c356ed/BFF.png",
+            "details": {
+              "size": 28572,
+              "image": {
+                "width": 1365,
+                "height": 659
+              }
+            },
+            "fileName": "BFF.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "1BgRwzc32jjPi6SQy29L1f",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:42:59.697Z",
+        "updatedAt": "2022-02-07T15:43:33.136Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-02-07T15:43:33.136Z",
+        "firstPublishedAt": "2022-02-07T15:43:33.136Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Represent!"
+        },
+        "description": {
+          "en-US": "The word Represent over a stylized American Flag"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/1BgRwzc32jjPi6SQy29L1f/e98759e1527f16cfaef4522593f89beb/Represent.png",
+            "details": {
+              "size": 544289,
+              "image": {
+                "width": 1916,
+                "height": 725
+              }
+            },
+            "fileName": "Represent.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "3aF8sO1yI9cmaqoITXY7Pb",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:44:25.424Z",
+        "updatedAt": "2022-02-07T15:45:01.090Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-02-07T15:45:01.090Z",
+        "firstPublishedAt": "2022-02-07T15:45:01.090Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "latin_defs"
+        },
+        "description": {
+          "en-US": "latin words and their definitions arranged in a list"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/3aF8sO1yI9cmaqoITXY7Pb/7247718e057c41d29f8e471c533ade23/latin_defs.png",
+            "details": {
+              "size": 397878,
+              "image": {
+                "width": 1854,
+                "height": 1076
+              }
+            },
+            "fileName": "latin_defs.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "5l1oRfaEWndzToZhemJSdk",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:45:12.422Z",
+        "updatedAt": "2022-02-07T15:45:45.672Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-02-07T15:45:45.672Z",
+        "firstPublishedAt": "2022-02-07T15:45:45.672Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "latin_lists"
+        },
+        "description": {
+          "en-US": "lists of latin words separated by length"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/5l1oRfaEWndzToZhemJSdk/72ea0480ba9e4c0ca57aa9850de0c2fe/latin_lists.png",
+            "details": {
+              "size": 430167,
+              "image": {
+                "width": 1844,
+                "height": 1050
+              }
+            },
+            "fileName": "latin_lists.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "id": "7em8oPDI8tLKa7JRsHcnYd",
+        "type": "Asset",
+        "createdAt": "2022-02-07T15:47:15.486Z",
+        "updatedAt": "2022-02-07T15:47:46.851Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-02-07T15:47:46.851Z",
+        "firstPublishedAt": "2022-02-07T15:47:46.851Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "workspace"
+        },
+        "description": {
+          "en-US": "View of author's monitors while working on this project"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/u3cw12w4zmkh/7em8oPDI8tLKa7JRsHcnYd/252af4d6c1ad080f78ecb28e6d6130a3/workspace.png",
+            "details": {
+              "size": 560285,
+              "image": {
+                "width": 1958,
+                "height": 367
+              }
+            },
+            "fileName": "workspace.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "U.S. English",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "1rxzbuoLR9k368IddFkLGW",
+        "version": 2,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "8c3d86f0-8b43-4273-8027-0f60c4aba7d4"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "createdAt": "2022-02-07T15:04:35Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedAt": "2022-02-07T15:04:42Z"
+      }
+    }
+  ],
+  "webhooks": [
+    {
+      "name": "Gatsby Builds",
+      "url": "https://webhook.gatsbyjs.com/hooks/data_source/publish/cfbc0765-2d09-4461-b53d-b7179807c57b",
+      "httpBasicUsername": null,
+      "topics": [
+        "ContentType.publish",
+        "Entry.publish",
+        "Asset.publish",
+        "ContentType.unpublish",
+        "Entry.unpublish",
+        "Asset.unpublish"
+      ],
+      "filters": null,
+      "transformation": null,
+      "active": true,
+      "sys": {
+        "type": "WebhookDefinition",
+        "id": "gatsby-builds",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "createdAt": "2022-02-07T15:04:52Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedAt": "2022-02-07T15:04:52Z"
+      },
+      "headers": [
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "1rCRCWS0GG9v61DbK2Xi6K",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u3cw12w4zmkh"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "createdAt": "2022-02-07T15:04:35Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "12r5zvLlt4qr13Eev6Ob65"
+          }
+        },
+        "updatedAt": "2022-02-07T15:04:35Z"
+      }
+    }
+  ]
+}
